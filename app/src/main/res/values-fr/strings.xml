@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZoodesAnimauxTest</string>
+    <string name="aquarium_title">Image d\'aquarium</string>
+    <string name="map_tiltle">Image d\'Accueil</string>
+    <string name="popcorn_title">Image de PopCorn</string>
+    <string name="warning_eat">ne pas donner de popcorn aux poissons</string>
+
+    <string-array name="week">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </string-array>
+    <string name="home_infos">Bienvenue\n sur\n l\'application\n\n vous pouvez nous joindre\n au numero suivant\n 0786623352</string>
+</resources>

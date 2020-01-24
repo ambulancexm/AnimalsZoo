@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/alert_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tw_alert_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#88BB00"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text="@string/alert_titre"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+
+    <EditText
+        android:id="@+id/alert_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="Taper le titre"
+        />
+
+    <TextView
+        android:id="@+id/tw_alert_place"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/alert_place"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/alert_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Taper le lieu"
+         />
+
+    <TextView
+        android:id="@+id/tw_alert_message"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="@string/alert_message"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/alert_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:hint="Taper le message"/>
+
+    <Button
+        android:id="@+id/alert_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="send"
+        android:padding="25sp"
+        android:background="@color/orange"
+        android:text="ENVOYER" />
+</LinearLayout>

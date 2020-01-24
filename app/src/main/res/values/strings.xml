@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">AnimalsZooTest</string>
+    <string name="map_tiltle">MapZoo</string>
+    <string name="aquarium_title">AquariumZoo</string>
+    <string name="popcorn_title">PopCornZoo</string>
+    <string name="warning_eat">do not eat pocorn to fishs</string>
+    <string name="accueil">Accueil</string>
+    <string name="home_infos">Bienvenue\n sur\n l\'application\n\n vous pouvez nous joindre\n au numero suivant\n 0786623352</string>
+    <string name="home_news"></string>
+    <string name="alrt_btn">ALERT</string>
+    <string name="alert_titre">Titre</string>
+    <string name="alert_place">Lieu</string>
+    <string name="alert_message">Message</string>
+
+
+    <string-array name="week">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </string-array>
+
+    <string-array name="aquarium_warnig">
+        <item>requin</item>
+        <item>raie</item>
+        <item>baracuda</item>
+        <item>tortue</item>
+    </string-array>
+
+
+</resources>

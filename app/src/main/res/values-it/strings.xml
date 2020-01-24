@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnimalsZooTest</string>
+    <string name="aquarium_title">it aqua</string>
+    <string name="map_tiltle">it map</string>
+    <string name="popcorn_title">it pop</string>
+    <string name="warning_eat">it not eat fish</string>
+
+    <string-array name="week">
+        <item>Lunedi</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedi</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+        <item>Domenica</item>
+    </string-array>
+</resources>
